@@ -45,7 +45,8 @@ less
 lftp
 libfido2
 libusb-compat
-linux
+linux-xanmod-lts
+linux-xanmod-lts-headers
 linux-atm
 linux-firmware
 livecd-sounds
@@ -134,7 +135,6 @@ hwdetect
 libburn
 libisofs
 libisoburn
-linux-headers
 logrotate
 lsb-release
 os-prober
@@ -262,9 +262,9 @@ ttf-carlito
 ttf-caladea
 noto-fonts
 opendesktop-fonts
-gnome-screenshot
 ttf-opensans
 freetype2
+ttf-ms-fonts
 
 # Input Drivers
 libinput-gestures
@@ -298,28 +298,76 @@ chaotic-keyring
 # Desktop 
 ## Theming 
 capitaine-cursors
-whitesur-gtk-theme-git
-whitesur-icon-theme-git
-lxappearance
+candy-icons-git
+sweet-gtk-theme
+sweet-gtk-theme-dark
+xcursor-sweet
 
-## Calinix Interfac
-ldoc
-xmlto
-lua-filesystem
-lua-penlight
-network-manager-applet
-awesome-git
-nautilus
-gedit
-rofi
-picom-git
-yay-git
-ffmpeg
-feh
-inter-font
-pulseaudio-alsa
+## XFCE 
+
+### xfce4 group content
+# https://www.archlinux.org/groups/x86_64/xfce4/
+exo
+garcon
+thunar
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-panel
 xfce4-power-manager
-iproute2
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfconf
+xfdesktop
+xfwm4
+xfwm4-themes
+
+### xfce4-goodies group content
+# https://www.archlinux.org/groups/x86_64/xfce4-goodies/
+mousepad
+orage
+#parole
+ristretto
+thunar-archive-plugin
+thunar-media-tags-plugin
+xfburn
+xfce4-artwork
+xfce4-battery-plugin
+xfce4-clipman-plugin
+xfce4-cpufreq-plugin
+xfce4-cpugraph-plugin
+xfce4-datetime-plugin
+xfce4-dict
+xfce4-diskperf-plugin
+xfce4-eyes-plugin
+xfce4-fsguard-plugin
+xfce4-genmon-plugin
+xfce4-mailwatch-plugin
+xfce4-mount-plugin
+xfce4-mpc-plugin
+xfce4-netload-plugin
+xfce4-notes-plugin
+xfce4-notifyd
+xfce4-pulseaudio-plugin
+xfce4-screensaver
+xfce4-screenshooter
+xfce4-sensors-plugin
+xfce4-smartbookmark-plugin
+xfce4-systemload-plugin
+xfce4-taskmanager
+xfce4-time-out-plugin
+xfce4-timer-plugin
+xfce4-verve-plugin
+xfce4-wavelan-plugin
+xfce4-weather-plugin
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
+
+xfce4-panel-profiles
+
+# Plank
+plank
 
 # Display Manager
 sddm
@@ -344,6 +392,8 @@ kservice
 kwidgetsaddons
 libpwquality
 plasma-framework
+
+# Core Drivers
 nvidia
 xf86-video-amdgpu
 xf86-video-ati
@@ -371,6 +421,21 @@ yaml-cpp
 libyaml
 sddm-config-editor-git
 sed
+
+# nvidia
+nvidia-dkms
+nvidia-utils
+lib32-nvidia-utils
+nvidia-settings
+vulkan-icd-loader
+lib32-vulkan-icd-loader
+
+# AMD 
+lib32-mesa
+vulkan-radeon
+lib32-vulkan-radeon
+vulkan-icd-loader
+lib32-vulkan-icd-loader
 
 # VM 
 qemu-guest-agent
@@ -403,3 +468,30 @@ doas
 
 # Performance
 ananicy
+nohang
+
+# Gaming
+gamemode
+wine
+lutris
+proton-ge-custom-bin
+steam
+lib32-libvdpau
+lib32-libva
+lib32-libxtst
+lib32-libxrandr
+lib32-libpulse
+lib32-gdk-pixbuf2
+lib32-gtk2
+lib32-openal
+lib32-gcc-libs
+lib32-libx11
+lib32-libxss
+lib32-alsa-plugins
+lsof
+lib32-libgpg-error
+lib32-libindicator-gtk2
+lib32-libdbusmenu-glib
+lib32-libdbusmenu-gtk2
+lib32-nss
+dxvk-bin
