@@ -363,10 +363,18 @@ xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 
+calinix-gex-xfce-git 
+calinix-gex-wallpapers-git
+
 xfce4-panel-profiles
 
 # Plank
 plank
+calinix-gex-plank-git
+calinix-gex-plank-themes-git
+
+# More tools
+nautilus
 
 # Display Manager
 sddm
