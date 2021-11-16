@@ -1,0 +1,1 @@
+conky -b -c ${HOME}/.config/conky/calinix.conkyrc
