@@ -45,6 +45,8 @@ less
 lftp
 libfido2
 libusb-compat
+linux
+linux-headers
 linux-xanmod-lts
 linux-xanmod-lts-headers
 linux-atm
