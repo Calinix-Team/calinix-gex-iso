@@ -377,6 +377,9 @@ calinix-gex-plank-themes-git
 
 # More tools
 nautilus
+dmenu-distrotube
+feh
+conky
 
 # Display Manager
 sddm
