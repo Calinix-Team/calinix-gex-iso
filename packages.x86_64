@@ -380,6 +380,7 @@ nautilus
 dmenu-distrotube
 feh
 conky
+calinix-gex-conky-git
 
 # Display Manager
 sddm
